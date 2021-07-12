@@ -1,0 +1,185 @@
+BOOTSTRAP
+------------------------------------------------------------------------------------------------
+
+Un framework est avant tout un cadre de travail.
+
+Créé par Mark Otto et Jacob Thornton (Twitter) aux alentours de l'année 2010, le projet a été rendu OpenSource en 2011.
+Utilise de préprocesseur SAAS pour la manipulation de variables, fonctions, opérateurs
+Bootstrap utilise Javascript pur (Vanilla JS) depuis la version 5. Jquery a été abandonné.
+
+
+Bootstrap permet de créer des pages web complexe responsive, il facilite la mise en forme.
+
+Depuis 2013 BS est en Mobile First
+• Concevoir squelette et web design d'abord pour les tablettes et les smartphones
+• Oblige à penser à ce qui est important et essentiel de garder pour les petits supports
+• Sur des écrans plus grands on ajoute ce qui est considéré comme secondaire
+
+Bootstrap est régulièrement mis à jour, vous pourrez donc suivre les dernières actualités sur GitHub https://github.com/twbs ou sur le blog officiel https://blog.getbootstrap.com/.
+
+
+La base de BS : 
+**************
+Mise à disposition de classes et de templates
+Vous avez accès à de nombreux éléments graphiques de base tels que les boutons, formulaires, barre de progressions...
+
+L'élément le plus important dans BS c'est le système en grille de 12 colonnes
+
+Bootstrap peut être installé en local ou bien en utilisant le CDN
+C'est la méthode que nous allons privilégier.
+
+
+
+Dans le menu Layout on trouve : 
+*******************************
+- Les breakpoints
+
+Small	            sm	≥576px
+Medium	            md	≥768px
+Large	            lg	≥992px
+Extra large	        xl	≥1200px
+Extra extra large	xxl	≥1400px
+
+
+- Les containers
+
+                Extra small     Small   Medium  Large   X-Large     XX-Large
+                    <576px	    ≥576px  ≥768px  ≥992px	≥1200px	    ≥1400px
+
+.container	        100%	    540px	720px	960px	1140px	    1320px
+.container-sm	    100%	    540px	720px	960px	1140px	    1320px
+.container-md	    100%	    100%	720px	960px	1140px	    1320px
+.container-lg	    100%	    100%	100%	960px	1140px	    1320px
+.container-xl	    100%	    100%	100%	100%	1140px	    1320px
+.container-xxl	    100%	    100%	100%	100%	100%	    1320px
+.container-fluid	100%	    100%	100%	100%	100%	    100%
+
+- Les gutters 
+Marge horizontale et vertical autour des col
+
+Dans le menu Utilities : 
+***********************
+
+Regroupe toutes les classes relative à flexbox ainsi que les margin et padding notamment
+
+Le menu content contient :
+**************************
+
+- Les images
+
+Bootstrap inclut une classe img-fluid qui permet aux images de suivre la taille de leur conteneur parent,
+ainsi que des classes permettant de styliser les images.
+
+- Les tables 
+Pour créer des tables responsives et stylisées
+
+Le menu Forms :
+**************
+
+Permet d'avoir tout une boite à outils pour la création de formulaire de tous types
+
+Le menu Components:
+******************
+
+C'est dans cette section que vous trouverez tout un tas d'éléments graphiques tels que les boutons, carrousel, cards ou encore progress bar...
+
+Le menu Utilities : 
+*******************
+
+Tout ce qui concerne les couleurs de background ou de police se trouve dans cette section, ainsi qu'une librairie d'icons.
+
+Ressources tierce : https://mdbootstrap.com/
+
+BOOTSTRAP
+------------------------------------------------------------------------------------------------
+
+フレームワークは、何よりもフレームワークである。
+
+2010年頃にMark OttoとJacob Thornton（Twitter社）によって作成され、2011年にオープンソース化されました。
+変数、関数、演算子の操作にSAASプリプロセッサを使用
+Bootstrapは、バージョン5以降、純粋なJavascript（Vanilla JS）を使用しています。Jqueryは捨てられた。
+
+
+Bootstrapは、複雑なレスポンシブWebページの作成を可能にし、フォーマットを容易にします。
+
+2013年からBSはモバイルファーストに
+- タブレットやスマートフォンに対応したデザインスケルトンとウェブデザインファースト
+- 小さなメディアのために、何が大切で、何を残すべきかを考えさせられた
+- 大画面の場合は副次的なものを加えています。
+
+Bootstrapは定期的にアップデートされていますので、GitHub https://github.com/twbs や公式ブログ https://blog.getbootstrap.com/ で最新情報を追うことができます。
+
+
+BSのベース。
+**************
+クラスとテンプレートの有無
+ボタン、フォーム、プログレスバーなど、多くの基本的なグラフィック要素にアクセスすることができます。
+
+BSで最も重要な要素は12列のグリッドシステム
+
+Bootstrapは、ローカルにインストールすることも、CDNを使ってインストールすることもできます。
+今回はこの方法を採用します。
+
+
+
+レイアウト」メニューの中には、「: 
+*******************************
+- ブレイクポイント
+
+スモール            sm ≧576px
+中型の              md ≥768px
+大                 lg ≥992px
+エクストララージ      xl ≥1200px
+エクストラエクストララージ xxl ≥1400px
+
+
+- コンテナ
+
+                エクストラスモール スモール ミディアム ラージ X-Large XX-Large
+                    <576px ≥576px ≥768px ≥992px ≥1200px ≥1400px
+
+.container 100% 540px 720px 960px 1140px 130px
+.container-sm 100% 540px 720px 960px 1140px 1320px
+.container-md 100% 100% 720px 960px 1140px 1320px
+.container-lg 100% 100% 960px 1140px 1320px
+.container-xl 100% 100% 100% 1140px 1320px
+.container-xxl 100% 100% 100% 100% 1320px
+.container-fluid 100% 100% 100% 100% 100% 100%100
+
+- 雨どい 
+襟周りの水平・垂直方向の余白
+
+ユーティリティー」メニューで : 
+***********************
+
+フレックスボックス、特にマージンとパディングに関連するすべてのクラスを集めています。
+
+コンテンツメニューには、:
+**************************
+
+- イメージは
+
+Bootstrapには、画像が親コンテナのサイズに追従することを可能にするimg-fluidクラスが含まれています。
+また、画像をスタイリングするためのクラスもあります。
+
+- テーブル 
+レスポンシブでスタイルのあるテーブルを作成するには
+
+フォーム」メニューです。
+**************
+
+あらゆるタイプのフォームを作成するためのツールボックスが利用可能
+
+コンポーネント」メニューです。
+******************
+
+このセクションでは、ボタン、カルーセル、カード、プログレスバーなどの多くのグラフィック要素を見つけることができます。
+
+ユーティリティー」メニュー : 
+*******************
+
+背景やフォントの色、アイコンのライブラリなど、すべてこのセクションで確認できます。
+
+サードパーティリソース : https://mdbootstrap.com/
+
+www.DeepL.com/Translator（無料版）で翻訳しました。

@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+div{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(176, 204, 221);
+}
+
+p{
+    background-color: magenta;
+}
+
+p span{
+    background-color: yellow;
+}
+
+.boite{
+    /* vh = view height */
+    height: 11vh;
+    width: 18vh;
+    border: 5px double blue;
+    padding: 5vh;
+    margin: 2vh;
+    background: url(../img/flower.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    transition: margin 0.5s;
+}
+
+.boite:hover{
+    /* psedo classe :hover modifie un affichage au survol de la souris  */
+    border: 1px solid red;
+    margin-top: 10vh;  
+    cursor: pointer;
+    /* ミッキーみたいな手が出てくる */
+}
+
+.clear{
+    clear: both;
+    /* supprime l'effet flottant / フローティング効果を削除 */
+}
+

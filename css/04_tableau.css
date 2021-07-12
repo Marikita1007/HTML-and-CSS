@@ -1,0 +1,55 @@
+*{
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    /* largeur de  ma page 50% de l'écran */
+    margin: auto
+    /* gestion automatique des marges pour que mon tableau soit centré;
+    表を中央に配置するための余白の自動管理 */
+    
+}
+
+table{
+    border: 4px solid #483d8b;
+    border-collapse: collapse;
+    /* par défaut la bordure contient 2 traits, pour que la trait doit unique on utilise collapse 
+    デフォルトでは、境界線には2本の線が含まれているため、境界線は一つである必要があります。折りたたみcollapseを使用します。*/
+    width: 90%;
+    margin: 25px;    
+}
+
+thead, tfoot{
+    background-color: #e6e6fa;
+    /* border: 2px solid #6a5acd */
+}
+
+tbody{
+    border: 1px solid #6a5acd;
+}
+
+th{
+    border: 1px dotted #6a5acd;
+    /* dotted = pointillés ＝点線 */
+    padding: 4px;
+    background-color: #e6e6fa;
+    widows: 25%;
+}
+
+td{
+    border: 1px dotted #6a5acd;
+    text-align: center;
+    padding: 5px;
+}
+
+td:first-child{
+    text-align: left;
+    background-color: #e6e6fa;
+}
+
+
+
+
+

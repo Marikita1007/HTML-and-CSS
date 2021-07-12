@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 60vw ;
+    border: 2px solid olive;
+    margin: auto; /* auto center */
+}
+
+.col_4{
+    width: 33.333333%;
+    /* bootstap使う時に便利だから覚えておくと良い 
+    largeur de l'élément en % */
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.rose{
+    background-color: pink;
+}
+
+.vert{
+    background-color: green;
+}
+
+.row{
+    display: flex;
+    /* permet d'aligner les balise enfants */
+}
+
+section{
+    justify-content: space-around;
+    /* permet d'espacer les élements enfants en
+    appliquant un espace calculé automatiquement entre les éléments */
+}
+
+.test{
+    width: 150px;
+    height: 150px;
+}

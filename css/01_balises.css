@@ -1,0 +1,53 @@
+/* Commentaire en CSS */
+
+/* To all part */
+*{text-align: center;}
+
+body{
+    background-color: lightpink;
+}
+
+header{
+    background-color: rgb(148, 235, 148);
+    color: #ffffff;
+    height: 100px;
+}
+
+nav{
+    background-color:  #daf7a6;
+    height: 60px;
+}
+
+/* Ciblez la balise section te donnez-lui un hauter de 550px et une coloeur de background */
+section{
+    background-color: lightsalmon;
+    height: 550px;
+}
+   
+/* ciblez la balise article hauter 65px et background */
+article{
+    background-color: rgb(214, 148, 192);
+    height: 65px;
+}  
+
+/* footer background et hauter de 75px */
+footer{
+    background-color: rgb(227, 183, 145);
+    height: 75px;
+}
+
+/* put space in between if we write more than 2 divs */
+nav, footer{
+    color: rgb(94, 80, 156);
+}
+
+/* Je cible une class avec un poiunt devant */
+.jaune{
+    background-color: yellow;
+}
+
+#rose{
+    background-color: rgb(222, 76, 171);
+    color: white;
+    font-size:  25px;
+}

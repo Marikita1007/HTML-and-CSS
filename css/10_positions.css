@@ -1,0 +1,42 @@
+nav{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    /* position fixedで一定の場所にずっと配置することできる。その下にどこに配置するか書く */
+    position: fixed; 
+    top: 0;
+    /* トップに0pxで配置 */
+    left: 0;
+    /* 左に0pxで配置 */
+}
+
+#zone{
+    border:2px solid red;
+}
+
+.vert{
+    color : brown;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.red{
+    color: red;
+    position: relative;
+    left: 50%;
+    top: -30px;
+}
+
+.test{
+    position: relative;
+}
+
+.testAbsolute{
+    position: absolute;
+    top: -200px;
+    left: 0;
+}

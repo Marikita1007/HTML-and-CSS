@@ -1,0 +1,16 @@
+h1, h3, div, a, span, section{
+    text-align: center;
+    border: 1px solid orchid;
+    background-color: lightblue;
+}
+
+.block{
+    display: block; 
+    /* インラインエレメントもこれで横幅をとって中央に配置される 
+    on modifie l'afficharge normal de la balise a qui est de type ionline pour qu'elle devienne comme une balise BLOCK*/
+}
+
+.inline{
+    display: inline;
+}
+

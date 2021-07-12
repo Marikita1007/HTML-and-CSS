@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/02_formulaire.css">
+</head>
+<body>
+    
+    <form action="" method="POST">
+        <label for="pseudo">Pseudo</label>
+        <input type="text" 
+               id="pseudo" 
+               name="pseudo" 
+               placeholder="saisissez votre pseudo" required>
+        <br>
+
+        <label for="pseudo">Mot de passe</label>       
+        <input type="password" 
+               id="password" 
+               name="password" 
+               placeholder="saisissez votre mot de passe" required>
+        
+        <br>
+        
+        <label for="email">Email</label>
+        <input type="email" 
+               id="email" 
+               name="email" 
+               placeholder="saisissez votre email" required>
+               
+        <br>
+        
+        <label for="email">Photo</label>
+        <input type="filer" 
+               id="photo" 
+               name="photo" 
+               placeholder="saisissez votre photo" required>
+        
+        <br>
+
+        <label for="email">Quelle destination choisissez-vous</label>
+        <div>
+            <input type="checkbox" name="question">Malaisie
+
+            <input type="checkbox" name="question">Japon
+               
+            <input type="checkbox" name="question">USA
+        </div>
+        
+        <br>
+        
+        <label for="email">Commentaire</label>
+        <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="submit" name="inscription" value="Envoyer"><br>
+        <input type="reset" name="annuler" value="Annuler">
+    </form>
+
+</body>
+</html>

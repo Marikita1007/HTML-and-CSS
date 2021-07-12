@@ -1,0 +1,76 @@
+body{
+    font-size: 25px; 
+    /* taille de police en pixels */
+}
+h1{
+    background-color: darkslategrey;
+    color: white;
+}
+section p{
+    color: tomato; 
+    /* tous les <p> située à l'intérieur de la balise <section> */
+}
+
+section p:first-child{
+    color: darkgoldenrod; 
+    /* premier <p> située à l'intérieur de la balise <section> */
+}
+
+section p:last-child{
+    color: lightgreen;
+    /* dernier <p> située à l'intérieur de la balise <section> */
+}
+
+section p:nth-child(even){
+    /* les <p> pairs 偶数*/
+    color: rgb(37, 196, 249);
+}
+
+section p:nth-child(odd){
+    /* les <p> impairs 奇数*/
+    color: brown;
+}
+
+section p:nth-child(3), section p:nth-child(10){
+    color: orange;
+    /* les <P> 3 et 10 */
+}
+
+.zone1{
+    color: palegoldenrod;
+}
+
+.zone1{
+    color: rgb(235, 126, 23);
+}
+
+.lime{
+    color: lime;
+}
+
+#zone3{
+    background-color: #f5deb3;
+}
+
+#zone3::after{
+    /* rajouter contenu après l'id zone3 */
+    content: "rajouté après";
+    background-color: cyan;
+}
+
+#zone3::before{
+    /* rajouter contenu après l'id zone3 */
+    content: "rajouté avant";
+    background-color: cyan;
+}
+
+div.zone5 ul li:nth-child(2){
+    background-color: darkred;
+    color: white;
+}
+
+/* こう書くとhtmlに直接書き込んだり、かなり詳細に書いた場合よりも反映されるけどだめな例 */
+/* li:nth-child(2){
+    background-color: pink!important;
+} */
+

@@ -1,0 +1,8 @@
+label{
+    /* float: leftを置くことでwidthが取られる？ */
+    float: left;
+    width: 200px;
+    color: blue;
+    background-color: rgb(191, 217, 224);
+}
+
